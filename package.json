@@ -1,0 +1,42 @@
+{
+  "name": "bracket_utils",
+  "main": "lib/bracket_utils.js",
+  "version": "0.0.1",
+  "author": {
+    "name": "Robert Steckroth",
+    "email": "RobertSteckroth@gmail.com",
+    "url": "https://restarian.xyz"
+  },
+  "description": "Miscellaneous methods used in ECMA development.",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.5.3"
+  },
+  "optionalDependencies": {
+    "brace_navlink": "*"
+  },
+  "directories": {},
+  "keywords": [
+    "bracket",
+    "utils"
+  ],
+  "license": "LGPL-3.0",
+  "maintainers": [
+    {
+      "name": "nickali",
+      "email": "robertsteckroth@gmail.com"
+    }
+  ],
+  "readmeFilename": "README.md",
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/restarian/bracket_utils.git"
+  }
+}
