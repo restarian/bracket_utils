@@ -1,7 +1,7 @@
 {
   "name": "bracket_utils",
   "main": "lib/bracket_utils.js",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": {
     "name": "Robert Steckroth",
     "email": "RobertSteckroth@gmail.com",
