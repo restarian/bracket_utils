@@ -1,11 +1,9 @@
 
 ---
 ### Bracket utils document pages
+* **Unit testing outline**
 * [Synopsis](https://github.com/restarian/bracket_utils/blob/master/docs/synopsis.md)
-* Specification
-  * [License information](https://github.com/restarian/bracket_utils/blob/master/docs/specification/license_information.md)
-  * [Package information](https://github.com/restarian/bracket_utils/blob/master/docs/specification/package_information.md)
-  * **Unit test output**
+* [Package information](https://github.com/restarian/bracket_utils/blob/master/docs/package_information.md)
 ## Output of the unit testing
 
   * Using stop further progression methodology for dependencies in: cacheing.js

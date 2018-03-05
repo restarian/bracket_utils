@@ -1,11 +1,9 @@
 
 ---
 ### Bracket utils document pages
+* [Unit testing outline](https://github.com/restarian/bracket_utils/blob/master/docs/unit_testing_outline.md)
 * [Synopsis](https://github.com/restarian/bracket_utils/blob/master/docs/synopsis.md)
-* Specification
-  * [License information](https://github.com/restarian/bracket_utils/blob/master/docs/specification/license_information.md)
-  * **Package information**
-  * [Unit test output](https://github.com/restarian/bracket_utils/blob/master/docs/specification/unit_test_output.md)
+* **Package information**
  
  
 **Version**: 0.3.1
@@ -23,7 +21,7 @@
 | Name | Action |
 | ---- | ------ |
  | test | ```mocha``` |
- | make_docs | ```brace_document --navlink -r -i docs_raw -b docs --force-title --title 'Bracket utils document pages' --sort depth``` |
- | make_docs_extra | ```npm run make_docs --silent -- --batten-document-specification --batten-document-mocha``` |
+ | make_docs | ```brace_document --navlink -i docs -b docs --force-title --title 'Bracket utils document pages' --sort alphanumeric -R``` |
+ | make_docs_extra | ```npm run make_docs --silent -- --batten-document-specification --batten-document-mocha --specification-path package_information.md --mocha-path unit_testing_outline.md ``` |
 
 **Keywords**: *helper*
