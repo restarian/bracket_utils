@@ -1,12 +1,7 @@
 ## License Information
 
 ---
-### Bracket utils document pages
-* [Synopsis](https://github.com/restarian/bracket_utils/blob/master/docs/synopsis.md)
-* Specification
-  * **License information**
-  * [Package information](https://github.com/restarian/bracket_utils/blob/master/docs/specification/package_information.md)
-  * [Unit test output](https://github.com/restarian/bracket_utils/blob/master/docs/specification/unit_test_output.md)
+### Document pages
 
 ---
 

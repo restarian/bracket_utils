@@ -1,46 +1,54 @@
 {
-  "name": "bracket_utils",
-  "main": "lib/bracket_utils.js",
-  "version": "0.3.2",
   "author": {
     "name": "Robert Steckroth",
     "email": "RobertSteckroth@gmail.com",
     "url": "https://restarian.xyz"
   },
-  "description": "Miscellaneous methods used in ECMA development.",
-  "license": "LGPL-3.0",
-  "scripts": {
-    "test": "mocha",
-    "make_docs": "brace_document --navlink -i docs -b docs --force-title --title 'Bracket utils document pages' --sort alphanumeric -R",
-    "make_docs_extra": "npm run make_docs --silent -- --batten-document-specification --batten-document-mocha --specification-path package_information.md --mocha-path unit_testing_outline.md "
+  "bugs": {
+    "url": "https://github.com/restarian/bracket_utils/issues"
   },
-  "dependencies": {},
+  "bundleDependencies": false,
+  "dependencies": {
+    "brace_document": "^1.0.0",
+    "brace_document_navlink": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "Miscellaneous methods used in ECMA development.",
   "devDependencies": {
     "brace_maybe": "^0.1.3",
     "chai": "^4.1.2",
     "mocha": "^5.0.1",
     "requirejs": "^2.3.5"
   },
-  "optionalDependencies": {
-    "brace_document": "^1.0.0",
-    "brace_document_navlink": "^1.0.0"
-  },
   "directories": {},
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "homepage": "https://github.com/restarian/bracket_utils#readme",
   "keywords": [
     "helper"
   ],
+  "license": "LGPL-3.0",
+  "main": "lib/bracket_utils.js",
   "maintainers": [
     {
       "name": "nickali",
       "email": "robertsteckroth@gmail.com"
     }
   ],
-  "readmeFilename": "README.md",
-  "engines": {
-    "node": ">=0.4.0"
+  "name": "bracket_utils",
+  "optionalDependencies": {
+    "brace_document": "^1.0.0",
+    "brace_document_navlink": "^1.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/restarian/bracket_utils.git"
-  }
+    "url": "git+https://github.com/restarian/bracket_utils.git"
+  },
+  "scripts": {
+    "make_docs": "brace_document --navlink -r -i docs_raw -b docs --force-title --title 'Bracket utils document pages' --sort depth",
+    "make_docs_extra": "npm run make_docs --silent -- --batten-document-specification --batten-document-mocha",
+    "test": "mocha"
+  },
+  "version": "0.3.1"
 }
