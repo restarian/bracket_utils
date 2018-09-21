@@ -45,7 +45,7 @@ describe("Using stop further progression methodology for dependencies in: "+path
 
 		it("git is available in the system as a program", function(done) {
 			it_will.stop = true 
-			require("bracket_utils").Exec("git", [], function() {
+			require("bracket_utils").Spawn("git", [], {}, function() {
 				it_will.stop = false 
 				done()
 			}, function() {
