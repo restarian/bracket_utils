@@ -9,12 +9,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 61 - ((27 * winheight(0) + 20) / 41)
+let s:l = 77 - ((33 * winheight(0) + 20) / 41)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-61
-normal! 09|
+77
+normal! 026|
 lcd ~\Hobbies\Restarian\bracket_utils
 let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost
