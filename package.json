@@ -44,5 +44,5 @@
     "make_docs_extra": "npm run make_docs --silent -- --specification --mocha",
     "test": "mocha"
   },
-  "version": "0.3.1"
+  "version": "0.3.2"
 }
