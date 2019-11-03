@@ -76,6 +76,7 @@ describe("Using stop further progression methodology for dependencies in: "+path
 				expect(dir).to.be.a("string")
 				if ( path.sep === "\\") 
 					dir = dir.replace(/\//g, "\\")
+
 				expect(dir).to.equal(path.resolve(__dirname, ".."))
 				done()
 			}, function(err) {

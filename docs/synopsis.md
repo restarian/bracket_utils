@@ -10,7 +10,7 @@
 
 ------
 
-### Bracket utils document pages
+### 'Bracket
 * **Synopsis**
 * Specification
   * [License information](https://github.com/restarian/bracket_utils/blob/master/docs/specification/license_information.md)

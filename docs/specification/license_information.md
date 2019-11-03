@@ -1,7 +1,7 @@
 ## License Information
 
 ---
-### Bracket utils document pages
+### 'Bracket
 * [Synopsis](https://github.com/restarian/bracket_utils/blob/master/docs/synopsis.md)
 * Specification
   * **License information**

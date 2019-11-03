@@ -8,10 +8,7 @@
     "url": "https://github.com/restarian/bracket_utils/issues"
   },
   "bundleDependencies": false,
-  "dependencies": {
-    "brace_document": "^1.0.0",
-    "brace_document_navlink": "^1.0.0"
-  },
+  "dependencies": {},
   "deprecated": false,
   "description": "Miscellaneous methods used in ECMA development.",
   "devDependencies": {
@@ -37,17 +34,14 @@
     }
   ],
   "name": "bracket_utils",
-  "optionalDependencies": {
-    "brace_document": "^1.0.0",
-    "brace_document_navlink": "^1.0.0"
-  },
+  "optionalDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/restarian/bracket_utils.git"
   },
   "scripts": {
-    "make_docs": "brace_document --navlink -r -i docs_raw -b docs --force-title --title 'Bracket utils document pages' --sort depth",
-    "make_docs_extra": "npm run make_docs --silent -- --batten-document-specification --batten-document-mocha",
+    "make_docs": "brace_document --navlink -r -i docs_raw -b docs --force-title --title 'Bracket Utils document pages' --sort depth",
+    "make_docs_extra": "npm run make_docs --silent -- --specification --mocha",
     "test": "mocha"
   },
   "version": "0.3.1"
