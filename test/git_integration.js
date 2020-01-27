@@ -70,7 +70,7 @@ describe("Using stop further progression methodology for dependencies in: "+path
 				if ( path.sep === "\\") 
 					dir = dir.replace(/\//g, "\\")
 
-				expect(dir.replace(/\//g, "\\")).to.equal(path.resolve(__dirname, ".."))
+				expect(dir).to.equal(path.resolve(__dirname, "..").replace(/\//g, path.win32.sep))
 				done()
 			}, err_cb)
 		})
@@ -84,7 +84,7 @@ describe("Using stop further progression methodology for dependencies in: "+path
 				if ( path.sep === "\\") 
 					dir = dir.replace(/\//g, "\\")
 
-				expect(dir.replace(/\//g, "\\")).to.equal(test_repo)
+				expect(dir).to.equal(test_repo.replace(/\//g, path.win32.sep))
 				done()
 			}, err_cb)
 		})
