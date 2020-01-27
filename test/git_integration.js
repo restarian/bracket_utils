@@ -76,8 +76,9 @@ describe("Using stop further progression methodology for dependencies in: "+path
 		})
 		it("finds the correct git root of the test repo project", function(done) {
 
-			var test_repo = path.join(__dirname, "test_repo")
-			utils.projectRoot(path.join(test_repo, "test_dir"), function(dir) {
+			var test_repo = path.join(__dirname, "_dummy_repository")
+
+			utils.projectRoot(path.join(test_repo, "directories"), function(dir) {
 				
 				expect(dir).to.be.a("string")
 				if ( path.sep === "\\") 
