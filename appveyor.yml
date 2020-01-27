@@ -31,6 +31,7 @@ environment:
     - nodejs_version: 12
       appveyor_build_worker_image: Ubuntu
 install:
+  - git submodule update --init --recursive
   - npm install
 build: off
 test_script:
