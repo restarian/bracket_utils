@@ -2,7 +2,7 @@
   "name": "bracket_utils",
   "description": "Miscellaneous methods used with ECMA development.",
   "main": "lib/bracket_utils.js",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "license": "LGPL-3.0",
   "repository": {
     "type": "git",
