@@ -1,4 +1,47 @@
 {
+  "name": "bracket_utils",
+  "description": "Miscellaneous methods used with ECMA development.",
+  "main": "lib/bracket_utils.js",
+  "version": "0.3.3",
+  "license": "LGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/restarian/bracket_utils.git"
+  },
+  "scripts": {
+    "make_docs": "brace_document --navlink -r -i docs_raw -b docs --force-title --title 'Bracket Utils help pages' --sort depth",
+    "make_docs_extra": "npm run make_docs --silent -- --specification --mocha",
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "brace_maybe": "^0.1.3",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1",
+    "requirejs": "^2.3.5"
+  },
+  "optionalDependencies": {
+    "brace_document": "^1.0.2",
+    "brace_document_navlink": "^1.0.2",
+    "brace_document_link": "^1.0.1",
+    "brace_document_specification": "^1.0.1",
+    "batten_document_mocha": "https://github.com/restarian/batten_document_mocha.git"
+  },
+  "keywords": [
+    "utilities"
+  ],
+  "directories": {},
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "deprecated": false,
+  "homepage": "https://github.com/restarian/bracket_utils#readme",
+  "maintainers": [
+    {
+      "name": "nickali",
+      "email": "robertsteckroth@gmail.com"
+    }
+  ],
   "author": {
     "name": "Robert Steckroth",
     "email": "RobertSteckroth@gmail.com",
@@ -6,43 +49,5 @@
   },
   "bugs": {
     "url": "https://github.com/restarian/bracket_utils/issues"
-  },
-  "bundleDependencies": false,
-  "dependencies": {},
-  "deprecated": false,
-  "description": "Miscellaneous methods used in ECMA development.",
-  "devDependencies": {
-    "brace_maybe": "^0.1.3",
-    "chai": "^4.1.2",
-    "mocha": "^5.0.1",
-    "requirejs": "^2.3.5"
-  },
-  "directories": {},
-  "engines": {
-    "node": ">=0.4.0"
-  },
-  "homepage": "https://github.com/restarian/bracket_utils#readme",
-  "keywords": [
-    "helper"
-  ],
-  "license": "LGPL-3.0",
-  "main": "lib/bracket_utils.js",
-  "maintainers": [
-    {
-      "name": "nickali",
-      "email": "robertsteckroth@gmail.com"
-    }
-  ],
-  "name": "bracket_utils",
-  "optionalDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/restarian/bracket_utils.git"
-  },
-  "scripts": {
-    "make_docs": "brace_document --navlink -r -i docs_raw -b docs --force-title --title 'Bracket Utils document pages' --sort depth",
-    "make_docs_extra": "npm run make_docs --silent -- --specification --mocha",
-    "test": "mocha"
-  },
-  "version": "0.3.3"
+  }
 }

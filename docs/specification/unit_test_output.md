@@ -9,6 +9,8 @@
   * [Package information](https://github.com/restarian/bracket_utils/blob/master/docs/specification/package_information.md)
   * **Unit test output**
 ----
+ 
+### ---------- Start of unit testing ----------
 
   * Using stop further progression methodology for dependencies in: cacheing.js
 
@@ -26,8 +28,12 @@
 
     * git integration functions
 
-      * √ finds the correct git root repository
+      * √ finds the correct git root of the current project
+
+      * √ finds the correct git root of the test repo project
 
 
-  * 4 passing
+  * 5 passing
 
+
+### ---------- End of unit testing ----------
