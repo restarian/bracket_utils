@@ -3,7 +3,7 @@
 
 ----
 
-### 'Bracket
+### Bracket Utils help pages
 * [Synopsis](https://github.com/restarian/bracket_utils/blob/master/docs/synopsis.md)
 * Specification
   * [License information](https://github.com/restarian/bracket_utils/blob/master/docs/specification/license_information.md)
@@ -11,7 +11,7 @@
   * [Unit test output](https://github.com/restarian/bracket_utils/blob/master/docs/specification/unit_test_output.md)
 ----
 
-**Version**: 0.3.3
+**Version**: 0.3.5
 
 **Description**: Miscellaneous methods used with ECMA development.
 
@@ -25,7 +25,7 @@
 
 | Name | Action |
 | ---- | ------ |
- | make_docs | ```brace_document --navlink -r -i docs_raw -b docs --force-title --title 'Bracket Utils help pages' --sort depth``` |
+ | make_docs | ```brace_document --navlink --link --link-dest ../README.md --link-path ../docs/synopsis.md -r -i docs_raw -b docs --force-title --title "Bracket Utils help pages" --sort depth``` |
  | make_docs_extra | ```npm run make_docs --silent -- --specification --mocha``` |
  | test | ```mocha``` |
 
